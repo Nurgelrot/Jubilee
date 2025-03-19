@@ -1,4 +1,4 @@
-if state.currentTool!=-1   ; Never Run this is there is an active tool!
+if state.currentTool!=-1   ; Never Run this if there is an active tool!
     abort "Active tool!!!"
 
 M290 R0 S0                 ; Reset baby stepping
