@@ -1,3 +1,6 @@
+if state.currentTool!=-1   ; Never Run this is there is an active tool!
+    abort "Active tool!!!"
+
 M290 R0 S0                 ; Reset baby stepping
 M561                       ; Disable any Mesh Bed Compensation
 M400
